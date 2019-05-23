@@ -3,10 +3,11 @@
 
 # inputmodes.com
 
-Testing inputmodes in the browser.
+Testing `inputmode` in the browser.
 
 
 ## Resources
 
+- [Everything You Ever Wanted to Know About inputmode on CSS Tricks](https://css-tricks.com/everything-you-ever-wanted-to-know-about-inputmode/)
 - [inputmode on caniuse.com](https://caniuse.com/#feat=input-inputmode)
 - [inputmode on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode)
