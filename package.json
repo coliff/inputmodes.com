@@ -1,0 +1,17 @@
+{
+  "name": "inputmodes.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for inputmodes.com. Testing `inputmode` in the browser",
+  "homepage": "https://inputmodes.com/",
+  "bugs": {
+    "url": "https://github.com/coliff/inputmodes.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coliff/inputmodes.com"
+  },
+  "license": "MIT",
+  "author": "Christian Oliff (https://christianoliff.com)",
+  "devDependencies": {}
+}

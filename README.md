@@ -5,7 +5,6 @@
 
 Testing `inputmode` in the browser.
 
-
 ## Resources
 
 - [Everything You Ever Wanted to Know About inputmode on CSS Tricks](https://css-tricks.com/everything-you-ever-wanted-to-know-about-inputmode/)
