@@ -22,7 +22,7 @@ main {
   min-height: 80vh;
 }
 
-code {
+code, em {
   color: hotpink;
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
