@@ -1,15 +1,23 @@
 name: 'Check spelling'
 on: # rebuild any PRs and main branch changes
+  pull_request:
   push:
     branches-ignore:
       - "dependabot/**"
+
+env:
+  FORCE_COLOR: 2
+  NODE: 16
+
+permissions:
+  contents: read
 
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: streetsidesoftware/cspell-action@v1.6.1
+      - uses: streetsidesoftware/cspell-action@v2
         with:
           inline: warning
           strict: false
