@@ -5,6 +5,10 @@ on:
     branches-ignore:
       - "dependabot/**"
 
+env:
+  FORCE_COLOR: 2
+  NODE: 16
+
 jobs:
   build:
     name: Lint Code Base
@@ -17,6 +21,8 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter/slim@v4
         env:
+          JAVASCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_ALL_CODEBASE: false
+          VALIDATE_MARKDOWN: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
