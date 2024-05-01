@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Lint Code Base
-        uses: github/super-linter/slim@v5
+        uses: github/super-linter/slim@v6
         env:
           JAVASCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_ALL_CODEBASE: false
