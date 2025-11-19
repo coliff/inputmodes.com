@@ -9,9 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coliff/inputmodes.com"
+    "url": "git+https://github.com/coliff/inputmodes.com.git"
   },
   "license": "MIT",
   "author": "Christian Oliff (https://christianoliff.com)",
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "htmlhint": "npx htmlhint docs/**/index.html",
+    "pa11y": "npx pa11y https://inputmodes.com/",
+    "prettier": "npx prettier --write \"**/*.{json,js,md,scss,yml}\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "volta": {
+    "node": "20.18.3"
+  }
 }
