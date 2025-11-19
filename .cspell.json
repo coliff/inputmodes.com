@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "words": [
+    "christianoliff",
+    "coliff",
+    "fediverse",
+    "Oliff"
+  ],
+  "language": "en,en-US",
+  "allowCompoundWords": true,
+  "ignorePaths": [
+    "*.css",
+    ".cspell.json",
+    "**/node_modules/**"
+  ],
+  "useGitignore": true
+}

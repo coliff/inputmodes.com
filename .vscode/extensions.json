@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "HTMLHint.vscode-htmlhint",
+    "stylelint.vscode-stylelint"
+  ]
+}
