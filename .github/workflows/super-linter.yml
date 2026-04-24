@@ -5,6 +5,9 @@ on:
     branches-ignore:
       - "dependabot/**"
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Lint Code Base
@@ -29,10 +32,13 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JAVASCRIPT_DEFAULT_STYLE: prettier
+          IGNORE_GITIGNORED_FILES: true
           LINTER_RULES_PATH: /
+          LOG_LEVEL: NOTICE
           SUPPRESS_POSSUM: true
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_BIOME_FORMAT: false
           VALIDATE_BIOME_LINT: false
+          VALIDATE_GIT_COMMITLINT: false
           VALIDATE_MARKDOWN: false
+          VALIDATE_MARKDOWN_PRETTIER: false
